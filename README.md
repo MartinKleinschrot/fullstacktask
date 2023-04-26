@@ -11,9 +11,8 @@ PORT = 3001
 MONGODB_URI = `mongodb+srv://[user]:[password]@[host]/fullstacktask?retryWrites=true&w=majority`
 TEST_MONGODB_URI = `mongodb+srv://[user]:[password]@[host]/fullstacktask_test?retryWrites=true&w=majority`
 ```
-4. Run `npm install` inside fullstacktask_backend
-5. Run `npm start`
-6. Access app on http://localhost:3000/
+4. Run `npm run go` inside fullstacktask_backend (runs "npm install" in front- and backend and builds the frontend in the folder "/build" in backend and starts the app)
+5. Access app on http://localhost:3001/
 
 ## Features
 - MongoDB database connection
