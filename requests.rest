@@ -1,0 +1,22 @@
+### add book
+POST http://localhost:3000/api/books
+Content-Type: application/json
+
+{
+  "title": "Lord of the Rings",
+  "author": "J. R. Tolkien",
+  "description": "Great Book"
+}
+
+### delete book
+DELETE http://localhost:3000/api/books/6448fa53d07145a85213095d
+
+### update book
+PUT http://localhost:3000/api/books/6449036e59aae14952397186
+Content-Type: application/json
+
+{
+  "title": "Lord of the Rings",
+  "author": "Harald Schmidt",
+  "description": "Great Book"
+}
